@@ -1,22 +1,24 @@
 {
   "name": "IHImageHandler",
   "version": "0.1.0",
-  "summary": "A short description of IHImageHandler.",
+  "summary": "IHImageHandler is image handler for iOS.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/zhanghaiming/IHImageHandler",
+  "homepage": "https://github.com/zhmios/IHImageHandler.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "zhanghaiming": "1938708066@qq.com"
+    "zhm": "121@qq.com"
   },
   "source": {
-    "git": "https://github.com/zhanghaiming/IHImageHandler.git",
+    "git": "https://github.com/zhmios/IHImageHandler.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
-  "source_files": "IHImageHandler/Classes/**/*"
+  "source_files": "IHImageHandler/Classes/**/*",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }

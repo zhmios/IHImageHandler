@@ -31,7 +31,7 @@
 		0E7B0F41F003F89280BBEFEA /* Pods_IHImageHandler_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IHImageHandler_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26A28BE358AB1D73E1B1847A /* Pods-IHImageHandler_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IHImageHandler_Example.debug.xcconfig"; path = "Target Support Files/Pods-IHImageHandler_Example/Pods-IHImageHandler_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3AD001C1B777897AB2F09B5A /* Pods-IHImageHandler_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IHImageHandler_Tests.debug.xcconfig"; path = "Target Support Files/Pods-IHImageHandler_Tests/Pods-IHImageHandler_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5F4DE3D4F4D76FD242768590 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5F4DE3D4F4D76FD242768590 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* IHImageHandler_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IHImageHandler_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,8 +43,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		71C5226EE386DC19960F35B9 /* Pods-IHImageHandler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IHImageHandler_Tests.release.xcconfig"; path = "Target Support Files/Pods-IHImageHandler_Tests/Pods-IHImageHandler_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9851D93051743158D52F3120 /* IHImageHandler.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = IHImageHandler.podspec; path = ../IHImageHandler.podspec; sourceTree = "<group>"; };
-		A687FC761FCCF57CA49B1E2B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9851D93051743158D52F3120 /* IHImageHandler.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = IHImageHandler.podspec; path = ../IHImageHandler.podspec; sourceTree = "<group>"; };
+		A687FC761FCCF57CA49B1E2B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C11271E1DCAA8E73FE95FE03 /* Pods-IHImageHandler_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IHImageHandler_Example.release.xcconfig"; path = "Target Support Files/Pods-IHImageHandler_Example/Pods-IHImageHandler_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D886B6209FB2524D378B2FF4 /* Pods_IHImageHandler_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IHImageHandler_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -147,7 +147,6 @@
 				3AD001C1B777897AB2F09B5A /* Pods-IHImageHandler_Tests.debug.xcconfig */,
 				71C5226EE386DC19960F35B9 /* Pods-IHImageHandler_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -479,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IHImageHandler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IHImageHandler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
