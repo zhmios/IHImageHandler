@@ -1,0 +1,16 @@
+PODS:
+  - IHImageHandler (0.1.0)
+
+DEPENDENCIES:
+  - IHImageHandler (from `../`)
+
+EXTERNAL SOURCES:
+  IHImageHandler:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IHImageHandler: 3c858c86ed28d4fd936834addc292327a3b729ce
+
+PODFILE CHECKSUM: fbc05358366e18b2e72c43820aa64431b3cd8059
+
+COCOAPODS: 1.15.2

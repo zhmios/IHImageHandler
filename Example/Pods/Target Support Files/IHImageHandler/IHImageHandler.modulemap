@@ -1,0 +1,6 @@
+framework module IHImageHandler {
+  umbrella header "IHImageHandler-umbrella.h"
+
+  export *
+  module * { export * }
+}
